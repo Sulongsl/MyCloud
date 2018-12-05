@@ -1,0 +1,9 @@
+spring:
+  cloud:
+    config:
+      name: config-client  # 对应{application}部分
+      profile: dev # 对应{profile}部分
+      uri: http://localhost:8762/ # 配置中心的具体地址
+      label: master # 对用git分支
+# 上面相关属性的配置 必须peizhizaibootstrap.yml 中   bootstrap.yml 的加载优先于application.yml
+

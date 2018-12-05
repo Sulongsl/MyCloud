@@ -1,0 +1,15 @@
+spring:
+  application:
+    name: spring-cloud-config-server
+
+  cloud:
+    config:
+     server:
+      git:
+        uri: https://github.com/Sulongsl/Spring-Cloud-Config
+        searchPaths: [config-repo]
+        username: 767244811@qq.com
+        password: 767244811xl
+
+server:
+  port: 8762
